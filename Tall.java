@@ -4,4 +4,7 @@ class Tall{
     public Tall(int t){
         tall = t;
     }
+    public int hent(){
+        return tall;
+    }
 }
