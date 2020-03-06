@@ -11,10 +11,11 @@ class TallRekke {
     }
 
     public void leggTil(Tall t){
-        if (tallrekke.size() <= antall)
+
+        if (tallrekke.size() <= antall){
             tallrekke.add(t);
-        else
-            System.out.println("Ikke plass");
+            teller ++;
+        }else{System.out.println("Ikke plass");}
     }
 
 
